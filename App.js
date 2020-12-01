@@ -41,7 +41,9 @@ const App = () => {
     <ScrollView style={styles.container}>
       <StatusBar backgroundColor="#1b262c" />
       <Image style={styles.logo} source={require('./assets/logo.png')} />
-
+      <Text style={{color: '#fff', marginHorizontal: 50, fontSize: 25}}>
+        Learn Spanish
+      </Text>
       <View style={styles.gridContainer}>
         {soundList.map((sound) => (
           <TouchableOpacity
